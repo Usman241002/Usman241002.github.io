@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Usman Khalid - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id = "header" class = "flexContainer">
+      <div id = "logo">
+        <h3>Usman Khalid</h3>
+        <p>Full-Stack Developer | Programmer | Mathematician</p>
+      </div>
+      <nav>
+        <ul class = "flexContainer">
+          <li><a href = "#" class = "underline-hover">About Me</a></li>
+          <li><a href = "#" class = "underline-hover">Projects</a></li>
+          <li><a href = "#" class = "underline-hover">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class = "flexContainer vertical">
+      <section id = "hero" class = "flexContainer horizontal">
+        <div id = "heroText" class = "flexContainer vertical">
+          <h2 id = "intro">Hi, I'm...</h2>
+          <h1 id = "name">Usman Khalid</h1>
+          <h2 id = "subheading">Born to create solutions to complex challenges, driven by a love for mathematics.</h2>
+        </div>
+
+        <div id = "profilePic">
+           <!-- add profile picture here -->
+        </div>
+      </section>
+      <div class="triangle"></div>
+
+      <section id = "about" class = "flexContainer vertical section">
+        <h3>About Me</h3>
+        <p>I currently a second-year Software Engineering student at Coventry University with a strong passion for mathematics and a drive to solve real-world problems through innovative technology. My journey in programming has given me hands-on experience in languages like C++, JavaScript, Python, and PHP, enabling me to create practical, user-focused solutions that are both efficient and impactful.</p><br>
+        <p>Beyond academics, I am an entrepreneur with a diverse portfolio of ventures. I currently own car sales business, whilst overseeing and managing third party dealership operations and ensuring top-notch service for clients. My passion for business innovation has inspired me to venture into digital marketing, with plans to launch my own digital marketing company in the near future.</p><br>
+        <p>Balancing these pursuits has equipped me with valuable skills in time management, problem-solving, and efficiency. Whether it's streamlining business operations or developing technology solutions, I’m committed to crafting strategies that save both time and resources while delivering exceptional results.</p>
+      </section>
+
+      <section id = "experience" class = "flexContainer vertical section">
+        <h3>Programming Experience</h3>
+        <section id = "languages" class = "flexContainer horizontal section">
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/C_Logo.png">
+            <p>C</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/C++_logo.png">
+            <p>C++</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/Python_Logo.png">
+            <p>Python</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/HTML5_Logo.png">
+            <p>HTML</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/CSS_Logo.png">
+            <p>CSS</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/JavaScript_Logo.png">
+            <p>JavaScript</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/PHP_Logo.png">
+            <p>PHP</p>
+          </div>
+          <div class = "languageCard flexContainer vertical">
+            <img class = "language" src = "Images/Languages/MySQL_Logo.png">
+            <p>MySQL</p>
+          </div>
+        </section>
+      </section>
+
+      <section id = "projects" class = "flexContainer vertical section">
+          <h3>Projects</h3>
+
+          <section id = "projectList" class = "flexContainer horizontal section">
+            <section class = "projectCard flexContainer vertical">
+              <h4>ExTracker</h4>
+              <img class = "projectImg" src = "Images/Projects/ExpenseTracker.png">
+              <p><i>Technologies Used: HTML, CSS, JavaScript, PHP, MySQL</i><br><br>
+
+                    ExTracker is a user-friendly web application for managing financial records. It allows users to log expenses, track spending, and manage unapproved claims with an approval workflow for managers. Featuring a clean green-themed interface, it ensures usability and readability. Built with PHP and MySQL, this project demonstrates my ability to create efficient full-stack applications with secure user authentication and dynamic front-end functionality.</p>
+            </section>
+            <section class = "projectCard flexContainer vertical">
+              <h4>Ad & Costsheet Generator</h4>
+              <img class = "projectImg" src = "Images/Projects/Ad&CostsheetGenerator.png">
+              <p><i>Technologies Used: C</i><br><br>
+
+                    <i>"Ad & Costsheet Generator"</i> is an early coding project designed to streamline tasks for car dealerships by automating the creation of folders and advertisements. Developed for use in a Command Terminal, it allows efficient input of vehicle information, saving time and improving reliability. Despite its lack of visual design due to being created before I learned HTML and CSS, the program is currently used by two dealerships in Birmingham, UK. This project highlights my ability to deliver practical, efficient solutions to real-world problems.</p>
+            </section>
+          </section>
+        </section>
+
+        <section id = "contact" class = "flexContainer vertical section">
+          <h3>Contact</h3>
+
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id = "nameInput" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="emailInput" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="messageInput" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
