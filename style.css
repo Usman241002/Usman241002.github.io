@@ -336,6 +336,10 @@ button:hover {
     padding: 0px 10px;
   }
 
+  #heroText h1 {
+    font-size: 100px;
+  }
+
   #profilePic {
     min-width: 300px;
     min-height: 300px;
