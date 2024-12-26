@@ -320,126 +320,73 @@ button:hover {
   }
 
   #hero {
-    width: 100%;
-    height: 500px;
-    background-color: #125A8E;
-    justify-content: space-between;
-    margin-top: 80px;
-    padding: 0px 40px;
+    height: 900px;
+    padding: 0px 10px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 
   #heroText {
-    align-items: start;
+    text-align: center;
+    align-items: center;
     color: #FFFFFF;
-    width: 60%;
+    width: 100%;
   }
 
   #heroText h1, #heroText h2 {
-    padding: 5px 0px;
-  }
-
-  #intro {
-    font-size: 38px;
-    font-family: "Share Tech";
-    font-weight: normal;
-  }
-
-  #name {
-    font-size: 120px;
-    font-weight: bold;
-  }
-
-  #subheading {
-    font-size: 28px;
-    font-weight: normal;
+    padding: 0px;
   }
 
   #profilePic {
-    min-width: 400px;
-    min-height: 400px;
-    border: 10px solid #FFFFFF;
-    border-radius: 50%;
-    background-color: #D9D9D9;
-  }
-
-  .triangle {
-    width: 100%;
-    height: 0px;
-    border-left: 50vw solid transparent;
-    border-right: 50vw solid transparent;
-    border-top: 100px solid #125A8E;
+    min-width: 300px;
+    min-height: 300px;
   }
 
   .section {
-    align-items: start;
-    padding: 0px 20px;
-    margin-top: 40px;
-    width: 90%;
+    align-items: center;
+    padding: 0px 10px;
+    width: 95%;
   }
 
   .section h3, .section h4 {
-    font-family: "Share Tech";
-    font-weight: normal;
-    color: #125A8E;
-  }
-
-  .section h3 {
-    font-size: 50px;
-    margin-bottom: 20px;
-  }
-
-  .section h4 {
-    font-size: 32px;
+    text-align: center;
   }
 
   .section p {
-    font-size: 20px;
-  }
-
-  #languages {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    margin-top: 0px;
-    padding: 0px;
+    text-align: center;
   }
 
   .languageCard {
-    margin: 20px 40px;
+    margin: 10px 20px;
   }
 
   .languageCard p {
-    font-size: 26px;
-    font-family: "Share Tech";
-    font-weight: normal;
+    text-align: center;
   }
 
   .language {
-    max-width: 250px;
-    height: 150px;
-    margin-bottom: 10px;
+    max-width: 150px;
+    height: 50px;
+  }
+
+  #php {
+    order: 1;
   }
 
   #projectList {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: start;
-    width: 100%;
-    margin-top: 0px;
-    padding: 0px;
+    align-items: center;
   }
 
   .projectCard {
-    margin: 20px 40px;
-    align-items: start;
-    width: 500px;
+    margin: 10px 20px;
+    align-items: center;
+    width: 90%;
   }
 
   .projectImg {
     width: 100%;
     max-height: 230px;
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
   form {
@@ -448,21 +395,15 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
   label {
-    width: 80%;
-    text-align: start;
-    font-size: 22px;
-    font-family: "Share Tech";
+    width: 90%;
   }
 
   input, textarea {
-    width: 80%;
-    font-family: "Share Tech";
-    padding:  0px 10px;
-    font-size: 18px;
+    width: 90%;
   }
 
   input {
@@ -477,18 +418,7 @@ button:hover {
   }
 
   button {
-    width: 80%;
-    height: 45px;
-    color: #FFFFFF;
-    background-color: #125A8E;
-    border: none;
-    border-radius: 15px;
-    font-size: 22px;
-    font-family: "Share Tech";
+    width: 90%;
   }
-
-  button:hover {
-    background-color: #0b3a5b;
-    cursor: pointer;
   }
 }
