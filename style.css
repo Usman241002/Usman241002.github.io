@@ -47,7 +47,7 @@ body {
   font-size: 16px;
 }
 
-.menu-icon {
+#menuIcon {
   display: none;
 }
 
@@ -266,14 +266,14 @@ button:hover {
     padding: 10px 10px;
   }
 
-  .menu-icon {
+  #menuIcon {
     display: flex;
     font-size: 30px;
     padding-right: 30px;
   }
 
   nav {
-    display: flex;
+    display: none;
     position: fixed;
     top: 80px;
     right: 0px;
