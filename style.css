@@ -333,7 +333,7 @@ button:hover {
   }
 
   #heroText h1, #heroText h2 {
-    padding: 0px;
+    padding: 0px 10px;
   }
 
   #profilePic {
